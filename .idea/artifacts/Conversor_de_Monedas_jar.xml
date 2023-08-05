@@ -1,10 +1,9 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="Conversor_de_Monedas:jar">
-    <output-path>$PROJECT_DIR$/../Conversor-Moneda JAR</output-path>
-    <root id="root">
-      <element id="archive" name="Conversor_de_Monedas.jar">
-        <element id="module-output" name="Conversor_de_Monedas" />
-      </element>
+  <artifact type="jar" build-on-make="true" name="Conversor_de_Monedas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Conversor_de_Monedas_jar</output-path>
+    <root id="archive" name="Conversor_de_Monedas.jar">
+      <element id="module-output" name="Conversor_de_Monedas" />
+      <element id="module-test-output" name="Conversor_de_Monedas" />
     </root>
   </artifact>
 </component>
